@@ -267,19 +267,19 @@ i {
 /*html{    background:url() no-repeat;
   background-size: cover;
   height:100%;
-} */
+} 
 
 #feedback-page{
 	text-align:center;
-}
+} */
 
-#form-main{
+.form-main{
 	width:100%;
 	float:left;
 	padding-top:0px;
 }
 
-#form-div {
+.form-div {
 	background-color:rgba(72,72,72,0.4);
 	padding-left:35px;
 	padding-right:35px;
