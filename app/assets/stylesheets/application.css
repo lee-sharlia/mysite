@@ -269,11 +269,11 @@ i {
   height:100%;
 } 
 
-#feedback-page{
+#feedback-page {
 	text-align:center;
 } */
 
-.form-main{
+#form-main {
 	width:100%;
 	float:left;
 	padding-top:0px;
@@ -297,7 +297,7 @@ i {
 
 .feedback-input {
 	color:#3c3c3c;
-  font-weight:500;
+    font-weight:500;
 	font-size: 18px;
 	border-radius: 0;
 	line-height: 22px;
@@ -309,7 +309,7 @@ i {
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
-  border: 3px solid rgba(0,0,0,0);
+    border: 3px solid rgba(0,0,0,0);
 }
 
 .feedback-input:focus{
@@ -338,7 +338,7 @@ i {
 	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
 	background-size: 30px 30px;
 	background-position: 8px 5px;
-  background-position: 11px 8px;
+    background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
@@ -388,8 +388,8 @@ input:focus, textarea:focus {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
+    margin-top:-4px;
+    font-weight:700;
 }
 
 #button-pink:hover{

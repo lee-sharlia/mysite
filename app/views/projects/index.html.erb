@@ -1,12 +1,12 @@
 <div class="wrapper wrapper_padding clearfix clearfix-before clearfix-after">
     <div class="col_2 project_content">
         <% @projects.each do |project| %>
-		<div class="post">
-			<p class="date"><%= project.created_at.strftime('%A, %B %d') %></p>
-			<h2><a href="#"><%= link_to project.title, project %></a></h2>
-			
-		</div>
-	<% end %>
+		    <div class="post">
+			    <p class="date"><%= project.created_at.strftime('%A, %B %d') %></p>
+			    <h2><a href="#"><%= link_to project.title, project %></a></h2>
+		    </div>
+		<% end %>
+	 </div>
         <!-- <h2>Sites I've Designed</h2>
         <hr>
         <h4>Petsitting Site</h4>
@@ -19,6 +19,7 @@
         <p class="date">July 2014</p>
     </div> -->
 </div> 
+
 <footer id="main_footer">
     <p class="copyright">&copy;2016 Sharlia Lee - Front End Developer</p>
     <div class="footer_nav">
@@ -26,7 +27,6 @@
         <a href="https://jsfiddle.net/user/liali_dc/fiddles/"><i class="fa fa-jsfiddle" aria-hidden="true"></i></a>
         <a href="https://twitter.com/liali_dc"><i class="fa fa-twitter" aria-hidden="true"></i></a>
         <a href="https://www.linkedin.com/in/sharlia-l-81a0a5a6"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        <a href="http://codepen.io/Liali_dc/#"><i class="fa fa-codepen" aria-hidden="true"></i>
-</a>
+        <a href="http://codepen.io/Liali_dc/#"><i class="fa fa-codepen" aria-hidden="true"></i></a>
     </div>
 </footer>
