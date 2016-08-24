@@ -179,7 +179,11 @@ p {
     padding: 20 7.5% 0 0;    
 }
 
-.homepage_content {
+.project_content, .post_content {
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+   padding: 5%;
    
 }
 
@@ -224,8 +228,8 @@ i {
 }
 
 .project_button {
-	background: #1a2d4f;
-	color: ;
+	background: none;
+	color: none;
 	text-decoration: none;
 	padding: 1em 2em;
 }

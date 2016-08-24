@@ -1,12 +1,13 @@
 <div class="wrapper wrapper_padding clearfix clearfix-before clearfix-after">
-    <div class="col_1 about homepage_content">
-        <h2><strong>About</strong></h2>
-        <hr>
-        <p>Front End Developer to be exact...I've built my career building useful websites for small businesses. I'm passionate about guiding new businesses through the process of identifying, deploying, and measuring the best marketing strategy for their business.</p>
-        <p>You have to wear many hats as a founder- so everything tends to look pretty scrappy at times. Having been there myself, I offer a unique focused perspective on growing startup businesses. I assist with prioritizing workflows, marketing, content creation, building your startup’s website and blog. </p>
-    </div>
-    <div class="col_2 homepage_content">
-        <h2>Sites I've Designed</h2>
+    <div class="col_2 project_content">
+        <% @projects.each do |project| %>
+		<div class="post">
+			<p class="date"><%= project.created_at.strftime('%A, %B %d') %></p>
+			<h2><a href="#"><%= link_to project.title, project %></a></h2>
+			
+		</div>
+	<% end %>
+        <!-- <h2>Sites I've Designed</h2>
         <hr>
         <h4>Petsitting Site</h4>
         <p class="date">September 2015</p>
@@ -16,19 +17,7 @@
         <p class="date">February 2015</p>
         <h4>Boutique/E-Commerce Site</h4>
         <p class="date">July 2014</p>
-    </div>
-    <div class="col_3 homepage_content">
-        <h2>Apps I've Built</h2>
-        <hr>
-        <a href="https://jsfiddle.net/liali_dc/35trcjdg/7/"><h4>Embedded Contact Form</h4></a>
-        <p class="date">January 2016</p>
-        <a href="https://jsfiddle.net/liali_dc/b02gr0Ly/39/"><h4>Guessing Game</h4></a>
-        <p class="date">February 2016</p>
-        <h4>Sliding Menu</h4>
-        <p class="date">February 2016</p>
-        <h4>To-do List</h4>
-        <p class="date">June 2016</p>
-    </div>
+    </div> -->
 </div> 
 <footer id="main_footer">
     <p class="copyright">&copy;2016 Sharlia Lee - Front End Developer</p>
