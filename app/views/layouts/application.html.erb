@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Workspace</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+    <title>Sharlia Lee - Junior Front End Developer</title>
+        <link rel="stylesheet" href="app/assets/stylesheets/application.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <script src="https://use.fontawesome.com/59a13d04a1.js"></script>
+    <%= stylesheet_link_tag 'application',media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
 </head>
 <body>
+<header id="header" class="clearfix header-image"> 
+<div class="logo-container">
+    <a href="https://portfolio-liali-dc.c9users.io/posts" class="logo">Sharlia Lee</a> 
+   </div>
+    <nav>
+        <a href="" class="a-menu">Contact</a>
+    </nav>
+    <div class="big-statement">
+        <h1 style="color: white;">Hello, I'm a developer.</h1>
+    </div>
+</header> 
 
 <%= yield %>
 
