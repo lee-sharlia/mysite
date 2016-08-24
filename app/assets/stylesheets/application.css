@@ -223,6 +223,18 @@ i {
     
 }
 
+.project_button {
+	background: #1a2d4f;
+	color: ;
+	text-decoration: none;
+	padding: 1em 2em;
+}
+
+.button_wrapper {
+	margin: 4em 0 0 0;
+	text-align: center;
+}
+
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
