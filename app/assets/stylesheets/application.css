@@ -66,9 +66,8 @@ p, li {
 
 #header {
     padding: 2.5em 5%;
-    display: 
-        -webkit-flex: flex-shrink;
-        flex: flex-shrink;
+    display: -webkit-flex;
+    display: flex;
      
         -webkit-flex-flow: row wrap;
         flex-flow: row wrap;
