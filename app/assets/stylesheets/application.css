@@ -25,6 +25,7 @@ body {
 
 .clearfix-after {
     clear: both;
+    overflow: auto;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, li {
@@ -65,10 +66,12 @@ p, li {
 
 #header {
     padding: 2.5em 5%;
-    display: flex;
+    display: 
         -webkit-flex: flex-shrink;
-    flex-flow: row wrap; 
+        flex: flex-shrink;
+     
         -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
 }
 .header-image {
     background-image: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/SLZRDLFT96.jpg');
@@ -97,12 +100,12 @@ p, li {
 nav {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    width: inherit;
+    max-width: 400px;
     float: right;
     display: table;
     position: relative;
-    left: 50%;
-    top: 5%;
+    left: 5%;
+    top: 1rem;
 }
 
 .a-menu {
@@ -162,7 +165,7 @@ hr {
 }
 
 .wrapper_padding {
-    padding: 4rem 0;
+    padding: 1rem 0;
     
 }
 .date {
@@ -183,7 +186,7 @@ p {
    width: 100%;
    margin: 0 auto;
    text-align: center;
-   padding: 5%;
+   padding: 2%;
    
 }
 
@@ -199,6 +202,7 @@ p {
 
 #main_footer {
     padding: 2.5em 2%;
+    margin-bottom: 25px;
     border-top: 1px solid #e9e9e9;
 }
 
@@ -218,12 +222,17 @@ i {
 }
 
 .big-statement {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    text-align: center;
-    vertical-align: middle;
+    height: 450px;   
+    width: 100%;
     color: white;
+    text-align: center;
     font-size: 3em;
+    display: -webkit-flex;
+    display:         flex;
+              -webkit-align-items: center;
+                      align-items: center;
+              -webkit-justify-content: center;
+                      justify-content: center;
     
 }
 
