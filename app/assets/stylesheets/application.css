@@ -80,6 +80,7 @@ p, li {
 
 .logo-container {
     float: left;
+    position: relative;
     
 }
 .logo {
@@ -96,15 +97,18 @@ p, li {
         z-index: 1;
     }
 
+.nav-container {
+    float: right;
+}
 nav {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    max-width: 400px;
-    float: right;
-    display: table;
+    max-width: 500px;
+    
     position: relative;
-    left: 5%;
+    left: 2rem;
     top: 1rem;
+    border: 1px red solid;
 }
 
 .a-menu {
