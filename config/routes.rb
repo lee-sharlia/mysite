@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
-  resources :posts
-  resources :projects
+  
+    resources :projects do
+    end
+    
   resources :contacts
+  resources :posts
   
   
   get 'welcome/index'
