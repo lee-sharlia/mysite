@@ -3,7 +3,6 @@ class ProjectsController < ApplicationController
 	
 
 	def index
-		@project = Project.all.order("created_at desc")
 	end
 
 	def new
