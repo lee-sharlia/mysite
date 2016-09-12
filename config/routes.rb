@@ -6,4 +6,11 @@ Rails.application.routes.draw do
   
   get 'welcome/index'
   root 'welcome#index'
+  
+  get '/projects' => 'projects#index'
+
+  get '/posts' => 'posts#index'
+  
+  get '/contacts' => 'contacts#index'
+  
 end
