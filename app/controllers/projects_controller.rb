@@ -3,7 +3,7 @@ class ProjectsController < ApplicationController
 	
 
 	def index
-		@project = Project.find(params[:id])
+		@project = Project.all
 			if @project = Project.all
 	    		render('index')
     		else
