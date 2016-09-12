@@ -1,4 +1,4 @@
 class Project < ActiveRecord::Base
- belongs_to :project
+ belongs_to :projects
 
 end
