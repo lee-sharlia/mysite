@@ -100,14 +100,14 @@ p, li {
 .nav-container {
     float: right;
 }
+
 nav {
+    padding: 2%;
+    max-width: 100%;
+    position: relative;
+    left: 15rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    max-width: 500px;
-    
-    position: relative;
-    left: 2rem;
-    top: 1rem;
     
 }
 
@@ -250,29 +250,6 @@ i {
 	margin: 4em 0 0 0;
 	text-align: center;
 }
-
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .header_image, .img-header {
-      width: 60%;
-  }
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) {}
   
 /* Contact form css */
 
@@ -440,3 +417,26 @@ input:focus, textarea:focus {
 		padding-right: 3%;
 	}
 }
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .header_image, .img-header, nav {
+      width: 60%;
+  }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {}
