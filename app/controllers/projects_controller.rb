@@ -3,6 +3,12 @@ class ProjectsController < ApplicationController
 	
 
 	def index
+		@project = Project.find(params[:id])
+			if @project = Project.all
+    		render('index')
+    	else
+    		redirect_to @project, notice: "No Projects to display"
+    	end 
 	end
 
 	def new
